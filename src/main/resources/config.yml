@@ -1,39 +1,37 @@
-##### !!!! DO NOT CHANGE THIS VALUE !!!!
+##### !!!! 不要更改 !!!!
 version: "UNOFFICIAL"
 
 options:
   auto-update: true
-  # This will make the plugin display more informative messages on console.
+  # 启用调试信息，将在控制台输出更多内容
   debugging: true
 
 item-settings:
   crescent-hammer:
-    # This is the cooldown length players need to wait to use the crescent hammer again.
-    # This value must be in milliseconds.
-    # Do not set this to negative OR to zero. This will cause dupe bugs to occur.
+    # 玩家使用新月锤的冷却时间，单位为毫秒。（1秒=1000毫秒）
+    # 不要设置为0或负数，这会导致奇怪的问题出现！
     cooldown: 500
     damageable: true
-    # Changes made in this may cause issues.
-    # When these features are enabled, lores about them are added to the item.
-    # This may cause items crafted in the past to no longer be recognized.
-    # Meaning those items may no longer work.
+    # 更改这里的选项可能会导致问题。
+    # 当这些功能启用时，会向物品添加lore。
+    # 改动后可能会导致以前的物品无法识别，全部失效。
     features:
       enable-rotation: true
       enable-channel-change: true
-    # You have got to find the materials to whitelist from:
+    # 在此填写禁止旋转的方块。
     # https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
-    # Do not enter anything that isn't Directional or anything that's flagged as LEGACY.
+    # 不要填写任何不带方向的材料，或旧版材料（LEGACY）。
     rotation-whitelist:
     - PLAYER_WALL_HEAD
 
 messages:
   items:
     crescent-hammer:
-      block-breaking: "&cYou cannot break blocks with this!"
-      cooldown: "&cYou cannot do that now. You need to wait &e{left-cooldown} &cmore milliseconds!"
-      dismantle-fail: "&cYou cannot dismantle this block!"
-      rotate-fail: "&cYou cannot rotate this block!"
-      channel-change-fail: "&cThis is not a cargo node!"
-      channel-change-success: "&aChanged the channel. New channel: {channel}"
+      block-breaking: "&c你不能破坏该方块！"
+      cooldown: "&c你现在不能这么做，还需要等待 &e{left-cooldown} &c毫秒！"
+      dismantle-fail: "&c你不能拆除该方块！"
+      rotate-fail: "&c你不能旋转该方块！"
+      channel-change-fail: "&c这不是一个货运节点！"
+      channel-change-success: "&a已更改信道为：{channel}"
       
       

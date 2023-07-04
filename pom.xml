@@ -8,8 +8,8 @@
     <version>UNOFFICIAL</version>
 
     <properties>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>16</maven.compiler.source>
+        <maven.compiler.target>16</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -49,7 +49,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
-                <version>3.1.0</version>
+                <version>3.5.0</version>
                 <configuration>
                     <relocations>
                         <relocation>
@@ -79,9 +79,9 @@
         </dependency>
 
         <dependency>
-            <groupId>io.github.thebusybiscuit</groupId>
+            <groupId>io.github.Slimefun</groupId>
             <artifactId>Slimefun4</artifactId>
-            <version>RC-31</version>
+            <version>RC-34</version>
             <scope>provided</scope>
         </dependency>
         
@@ -90,6 +90,13 @@
             <artifactId>bstats-bukkit</artifactId>
             <version>3.0.0</version>
             <scope>compile</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>net.guizhanss</groupId>
+            <artifactId>GuizhanLibPlugin</artifactId>
+            <version>1.2.2</version>
+            <scope>provided</scope>
         </dependency>
         
     </dependencies>

@@ -1,11 +1,10 @@
-# MoreTools
-This is an addon for [Slimefun4](https://github.com/TheBusyBiscuit/Slimefun4) Spigot/Paper plugin for Minecraft servers.
+# MoreTools 更多工具
+这是一个 [Slimefun4](https://github.com/TheBusyBiscuit/Slimefun4) 插件附属。
 
-![](https://thebusybiscuit.github.io/builds/LinoxGH/MoreTools/build/badge.svg)
-
-## Content
-### Items
-* <b>Crescent Hammer</b> 
-    > Allows you to break machines with a single left click.
-    > Allows you to rotate machines with a single right click.
-    > Allows you to change the channels of cargo nodes by shift + right and shift + left click.
+## 内容
+### 物品
+* <b>新月锤</b> 
+    > 允许你只需按一下左键即可破坏机器。
+    > 允许你只需按一下右键即可旋转机器。
+    > 允许你通过蹲下+右键来更改货运信道。
+  
