@@ -1,6 +1,10 @@
 # MoreTools 更多工具
 这是一个 [Slimefun4](https://github.com/TheBusyBiscuit/Slimefun4) 插件附属。
 
+## 下载
+
+[下载 MoreTools](https://resources.guizhanss.com/plugin/MoreTools)
+
 ## 内容
 ### 物品
 * <b>新月锤</b> 
